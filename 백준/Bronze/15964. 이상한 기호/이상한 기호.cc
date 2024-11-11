@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string.h>
 
-int calculate(int a, int b) {
+long long calculate(long long a, long long b) {
     return (a + b) * (a - b);
 }
 
