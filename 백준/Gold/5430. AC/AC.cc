@@ -10,23 +10,7 @@ int main(){
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.tie(nullptr);
-
-    // int t
-
-    // cin >> t
-    // for (0 ~ t)
-        // 정수 배열을 저장할 덱
-        // 에러인지 확인할 bool
-
-        // 함수이름을 저장할 문자열
-        // for (0 ~ 문자열의 길이)
-        //     switch (문자)
-        //     case 'R':
-        //         R(덱, IsError);
-        //     case 'D':
-        //         D(덱, IsError);
-        // print(덱, IsError);
-
+    
     int t = 0;
 
     cin >> t;
