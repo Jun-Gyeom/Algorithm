@@ -23,14 +23,14 @@ int main(){
                 stack.push(text[i]);
             }
             else if (text[i] == ')') {
-                if (stack.empty() || stack.top() == '[') {
+                if (stack.empty() || stack.top() != '(') {
                     isBalance = false;
                     break;
                 }
                 stack.pop();
             }
             else if (text[i] == ']') {
-                if (stack.empty() || stack.top() == '(') {
+                if (stack.empty() || stack.top() != '[') {
                     isBalance = false;
                     break;
                 }
